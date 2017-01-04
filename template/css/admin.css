@@ -1,0 +1,18 @@
+body {
+    padding-top: 70px;
+}
+
+select {
+    width: 100%;
+}
+
+.status-payed {
+    background: #08e62f;
+}
+.status-active {
+    background: #ffff00;
+}
+
+.status-cancelled {
+    background: #ff0000;
+}

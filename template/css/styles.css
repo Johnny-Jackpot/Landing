@@ -1,0 +1,320 @@
+#whatIsLyft, #whyLyft, #insurance {
+    display: none;
+}
+body {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #ffffff; 
+    height: 45px;
+    width: 100%;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff;
+}
+.pos-r {
+    position: relative;
+}
+.bg-car, .grey-block {
+    position: absolute;
+    width: 100%;
+    z-index: -1000;
+}
+.bg-car {
+    top: -85px;
+    height: 610px;
+    background: url(../img/drive.jpg) no-repeat;
+    background-size: cover;
+    background-position: -100px 0;
+    
+}
+.grey-block {
+    top: 610px;
+    height: 88px;
+    background: #d8dce6;
+}
+.heading-text {
+    font-size: 30px;
+    text-align: center;
+    color: #f3f3f5;
+    word-spacing: 5px;
+    margin-top: 65px;
+}
+.become-a-driver, .become-a-driver:hover, .become-a-driver:focus {
+    color: #fff;
+    outline: none;
+}
+.pink-button {
+    background-color: #EA0B8C;
+    font-size: 22px;
+    border-radius: 10px;
+    border-bottom: 3px solid #b80b8c;
+    width: 100%;
+    color: #fff;
+}
+.custom-modal {
+    padding: 10px;
+}
+.custom-modal form input, .calculate input {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 5px;
+    border: 2px solid #D8DCE6;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.custom-modal form input:last-child {
+    border: none;
+}
+.bg-white {
+    background-color: #fff;
+}
+.get-wheels {
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.nav-links {
+    display: none;
+}
+.get-wheels h4 {
+    font-weight: bold;
+}
+.text-color-darkblue {
+    color: #333447;
+}
+.text-color-pink {
+    color: #FF00BF;
+}
+.text-color-white, .text-color-white li a{
+    color: #fff;
+}
+.mar-top-340px {
+    margin-top: 340px;
+}
+.bg-grey{
+    background-color: #d8dce6;
+}
+.bg-lightgrey {
+    background-color: #f3f3f5;
+}
+.calculate .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.fw-bold {
+    font-weight: bold;
+}
+.mar-bottom {
+    margin-bottom: 15px;
+}
+.text-align-center {
+    text-align: center;
+}
+.font-16px {
+    font-size: 16px;
+}
+.medium-image {
+    width: 50px;
+    height: auto;
+}
+.big-image {
+    width: 110px;
+    height: auto;
+}
+.bg-darkblue {
+    background-color: #333447;
+}
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer li {
+    margin-bottom: 15px;
+}
+footer img {
+    width: 150px;
+}
+.mar-top-20px {
+    margin-top: 20px;
+}
+.btn-signup {
+    background: linear-gradient(to bottom right, #FF00BF, #B80B8C);
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 8px;
+}
+.pad-l-r {
+    padding: 0 10px;
+}
+/*backgrouтd-image взято з оригіналу https://www.lyft.com/drive-with-lyft */
+.lyft {
+    display: block;
+    height: 40px;
+    width: 40px;
+    margin: 3px auto 0;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20width%3D%2272px%22%20height%3D%2250px%22%20viewBox%3D%220%200%2072%2050%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Asketch%3D%22http%3A%2F%2Fwww.bohemiancoding.com%2Fsketch%2Fns%22%3E%20%20%20%20%20%20%20%20%3Ctitle%3ELyft%3C%2Ftitle%3E%20%20%20%20%3Cdesc%3ECreated%20with%20Sketch.%3C%2Fdesc%3E%20%20%20%20%3Cdefs%3E%3C%2Fdefs%3E%20%20%20%20%3Cg%20id%3D%22home%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20sketch%3Atype%3D%22MSPage%22%3E%20%20%20%20%20%20%20%20%3Cg%20sketch%3Atype%3D%22MSArtboardGroup%22%20transform%3D%22translate%28-35.000000%2C%20-20.000000%29%22%20id%3D%22Navigation-Expanded%22%20fill%3D%22%23FF00BF%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20sketch%3Atype%3D%22MSLayerGroup%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Clear-Nav%22%20sketch%3Atype%3D%22MSShapeGroup%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Group%22%20transform%3D%22translate%2835.000000%2C%2020.000000%29%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Lyft%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0.0228930535%2C0.888355356%20L10.9345304%2C0.888355356%20L10.9345304%2C29.6040347%20C10.9345304%2C34.1479858%2013.0546964%2C36.8554476%2014.7310066%2C38.0153356%20C12.9561216%2C39.5623811%207.53289193%2C40.916112%203.49024801%2C37.6287062%20C1.10667714%2C35.6908059%200.0228930535%2C32.5042829%200.0228930535%2C29.5073774%20L0.0228930535%2C0.888355356%20Z%22%20id%3D%22Fill-13%22%3E%3C%2Fpath%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M68.2177982%2C24.741537%20L68.2177982%2C21.7240323%20L71.5456402%2C21.7240323%20L71.5456402%2C11.1371491%20L67.8913702%2C11.1371491%20C66.4881607%2C4.78100504%2060.7169566%2C0.0183865248%2053.8151049%2C0.0183865248%20C45.8644821%2C0.0183865248%2039.4194142%2C6.33808604%2039.4194142%2C14.1340547%20L39.4194142%2C38.8577333%20C41.6844799%2C39.169889%2044.3831669%2C38.8186478%2046.6789361%2C36.9520521%20C49.062507%2C35.0141517%2050.1462911%2C31.8276288%2050.1462911%2C28.830195%20L50.1462911%2C27.919609%20L55.5959152%2C27.919609%20L55.5959152%2C17.3327258%20L50.1462911%2C17.3327258%20L50.1462911%2C14.1340547%20L50.1592189%2C14.1340547%20C50.1592189%2C12.154428%2051.7962069%2C10.5492824%2053.8151049%2C10.5492824%20C55.8345416%2C10.5492824%2057.4774548%2C12.154428%2057.4774548%2C14.1340547%20L57.4774548%2C24.741537%20C57.4774548%2C32.5375056%2063.9295253%2C38.8577333%2071.8801481%2C38.8577333%20L71.8801481%2C28.3263093%20C69.8612501%2C28.3263093%2068.2177982%2C26.7211637%2068.2177982%2C24.741537%22%20id%3D%22Fill-15%22%3E%3C%2Fpath%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M26.8905039%2C11.1369378%20L26.8905039%2C26.6744724%20C26.8905039%2C27.5565366%2026.143921%2C28.271167%2025.2233509%2C28.271167%20C24.3022422%2C28.271167%2023.5556593%2C27.5565366%2023.5556593%2C26.6744724%20L23.5556593%2C11.1369378%20L12.7587566%2C11.1369378%20L12.7587566%2C29.410456%20C12.7587566%2C32.6978617%2013.895868%2C36.8551835%2019.0696981%2C38.2089143%20C24.2489148%2C39.5637016%2027.2535608%2C36.7585261%2027.2535608%2C36.7585261%20C26.9799214%2C38.6066355%2025.2050365%2C39.9603664%2022.3452901%2C40.2503384%20C20.1814925%2C40.469534%2017.4149344%2C39.7670517%2016.0348872%2C39.1865795%20L16.0348872%2C48.8681585%20C19.5517989%2C49.8849091%2023.2712468%2C50.2134384%2026.9115116%2C49.5209916%20C33.5176389%2C48.2639181%2037.6874066%2C42.8495228%2037.6874066%2C35.6467027%20L37.6874066%2C11.1369378%20L26.8905039%2C11.1369378%20Z%22%20id%3D%22Fill-17%22%3E%3C%2Fpath%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%3C%2Fg%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.signup {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    z-index: 200;
+    padding: 5px 10px;
+    color: #FF00BF;
+    border: 1px solid #ff00bf;
+    border-radius: 10px;
+}
+@media only screen and (min-width: 544px) {
+    .bg-car {
+        background-position: -80px 0;
+    }
+
+    .heading-text, .pink-button {
+        display: block;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .calculate-form {
+        padding: 0 10%;
+    }
+
+    input.res-width{
+        width: 30%;
+        margin-left: 0;
+    } 
+    .text-align-left {
+        text-align: left;
+    }
+    
+}
+
+@media only screen and (min-width: 544px) and (max-width: 767px) {
+    .width-33 {
+        width: 33%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #whatIsLyft, #whyLyft, #insurance {
+        display: block;
+        position: absolute;
+    }
+    #whatIsLyft {
+        top: 910px;
+    }
+    #whyLyft {
+        top: 1100px;
+    }
+    #insurance {
+        top: 1370px;
+    }
+    header {
+        height: 100px;
+    }
+    .bg-car {
+        background-position: center;
+        height: 670px;
+    }
+    .heading-text {
+        font-size: 60px;
+        margin-top: 150px;
+    }
+    .lyft {
+        display: inline-block;
+        margin: 10px 10px 10px 50px;
+        width: 80px;
+        height: 80px;
+    }
+    .signup {
+        top: 27px;
+        right: 25px;
+        padding: 10px 20px;
+        border-width: 2px;
+        font-size: 16px;
+    }
+    .mar-top-246{
+        margin-top: 246px;
+    }
+    .pink-button {
+        margin-top: 40px;
+        width: 60%;
+    }
+    .calculate-form {
+        padding: 0 30px;
+        margin-top: 30px;
+    }
+    input.res-width{
+        width: 100%;
+        margin-left: 0;
+    }
+    input.pink-button {
+        padding: 5px;
+    }
+    .font-size-16px {
+        font-size: 16px;
+    }
+    .font-size-20px {
+        font-size: 20px;
+    }
+    .font-size-25px{
+        font-size: 25px;
+    }
+    .font-em{
+        font-size: 1.2em !important;
+    }
+    .text-justify {
+        text-align: justify;
+    }
+    .big-image{
+        margin-top: 50px;
+    }
+    .nav-links {
+        display: block;
+        position: relative;
+        top: -66px;
+    }
+    .nav-links a {
+        color: #FF00BF;
+        font-size: 18px;
+    }
+}
+
+@media only screen  and (min-width: 992px) {
+    .pink-button{
+        margin-top: 100px;  
+    }
+    .mar-top-100 {
+        margin-top: 100px;
+    }
+    #whatIsLyft {
+        top: 860px;
+    }
+    #whyLyft {
+        top: 1020px;
+    }
+    #insurance {
+        top: 1260px;
+    }
+}
+
